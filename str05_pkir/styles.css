@@ -1,0 +1,134 @@
+/*vseobecne*/
+* {box-sizing: border-box;}
+body {
+    background-color:#C1D8D2;
+    margin: 0;
+    padding: 0;
+    font-family: calibri,verdana,arial, helvetica, sans, sans-serif;
+}
+header {
+    background-color:#166363;
+    color:white;
+    padding-top: 10px;
+}
+footer {
+    background-color: #166363;
+    color:white;
+    font-weight: bold;
+    font-size:0.9em;
+    padding: 5px 0px;
+    text-align: center;
+    width:100%;
+    bottom: 0;
+    position:fixed;
+  }
+
+/*nadpisy*/
+h1 {
+    margin: 0px auto;
+    font-size: 3em;
+    padding-bottom:10px;
+    width: 100%;
+    text-align: center;
+    font-weight:bold;
+}
+label{
+    color:gray;
+    font-weight:bold;
+    padding:0px 5px;
+}
+
+/*nadpis - pridany kvoli warningu "Section lacks heading", na stranke nie je viditelny*/
+.heading-to-hide{display:none;}
+
+
+#main-section{
+    width:70%;
+    height:500px;
+    margin:auto;
+    background-color:white;
+}
+.input-article{
+    padding:20px 5px 0px 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+input{
+    padding:5px 2px;
+    width: 250px;
+}
+input[type=submit] {
+    background: grey;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius:20px;
+    width: 25%;
+    display: block;
+    margin:0px 10px;
+}
+input[type=submit]:hover{
+    opacity:0.7;
+    cursor: pointer;
+}
+
+textarea{
+    display: block;
+    width:80%;
+    height:250px;
+    margin:20px auto;
+    overflow: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*stav vypoctu*/
+#progress-bar {
+    width: 80%;
+    background-color: lightgrey;
+    margin:10px auto;
+    position: relative;
+}
+#progress-indicator {
+    width: 0.5%;
+    height: 30px;
+    background-color: green;
+    z-index: 1;
+}
+#progress-bar p{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    bottom:-30%;
+    right:50%;
+}
+
+/*zdroj*/
+details{padding-left:15px;}
+summary{
+    padding:20px 0px 0px 0px;
+    color:grey;
+    font-weight:bold;
+    outline:none;
+}
+summary:hover {
+    cursor: pointer;
+}
+summary span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color:grey;
+}
+a:hover {
+    text-decoration: underline;
+}

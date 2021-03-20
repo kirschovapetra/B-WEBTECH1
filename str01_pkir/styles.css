@@ -1,0 +1,321 @@
+/*vseobecne*/
+body {
+    background-image: url("obrazky/floor-tile.png");
+    font-family: 'Calibri Light', helvetica, arial, verdana, sans, sans-serif;
+	font-size:1.1em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ul {
+    list-style-type: circle;
+}
+article {
+	margin:30px auto;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 10px 10px 5px gray;
+    width: 75%;
+    background-image: url("obrazky/article-bg.png");
+}
+
+/*nadpisy*/
+h1 {
+	font-family: 'Amatic SC';
+	font-size: 4em;
+    margin: 20px auto 0px auto;
+    width: 100%;
+    text-align: center;
+    color: #F1EFE3;
+    letter-spacing: 3px;
+}
+h2 {
+	font-family: 'Amatic SC';
+    font-size: 2.5em;
+    padding-top: 20px;
+	width:100%;
+	text-align:center;
+	color:grey; 
+	letter-spacing: 3px;
+}
+.education-skills-article h3 {
+    font-family: 'Amatic SC';
+    font-size: 1.5em;
+	padding-left: 20px;
+    width: 100%;
+    border-radius: 50px;
+	color: #F1EFE3;
+    background-color: #384F7E;
+    letter-spacing: 3px;
+}
+
+/*nadpis - pridany kvoli warningu "Section lacks heading", na stranke nie je viditelny*/
+.heading-to-hide{
+	display:none;
+}
+
+/*header, footer*/
+header {
+    background-image: url("obrazky/noisy-texture3.png");
+    padding-top: 10px;
+}
+footer {
+    font-weight:bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	margin-top: 30px;
+    text-align: center;
+    background-image: url("obrazky/noisy-texture3.png");
+    color: #F1EFE3;
+}
+
+/*menu*/
+nav{
+	font-size: 1em;
+	padding-left:30px;
+}
+nav ul {
+    list-style-type: none;  
+    padding: 0;
+    overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+nav li {
+	padding: 0;
+    display: inline;
+    float: left;
+	border-right:2px solid #F1EFE3;
+}
+nav li a {
+	text-decoration: none;
+    font-size:1.2em;
+	font-weight:bold;
+    text-align: center;
+    padding:14px 16px;
+	margin:0;
+	display: block;
+	color: #F1EFE3;	
+}
+nav li a:hover {
+    background-color: white;
+    color: gray;
+}
+nav li a:active {
+    background-color: black;
+}
+
+/*aside - citat*/
+aside {
+	font-family: 'Amatic SC';
+	font-style: italic;
+    font-weight: bolder;
+	font-size: 1.35em;
+	text-align: left;
+    width: 30%;
+    float: right;
+    margin: 10px 20px 0px 15px;
+    border-top: 10px double #384F7E;
+    border-bottom: 10px double #384F7E;    
+    letter-spacing: 1px;
+}
+aside cite {color: #384F7E;}
+.author {color: gray;}
+
+/*o mne*/
+.about-me-article img {
+    height: 20%;
+    width: 20%;
+    margin:3px 10px 0px 20px;
+	border:10px double #384F7E;
+    float: left; 
+}
+.about-me-article p {
+	margin-left:20px;
+	margin-right:20px;
+	text-decoration: none;
+}
+/*zoznam predmetov*/
+.classes-article li {
+    padding: 5px;
+    text-decoration: none;
+}
+.classes-article li a {
+    color: black;
+    padding:5px 60% 5px 5px;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.classes-article li:hover {
+    background-color: #384F7E;
+    color: white;
+    border-radius: 50px;
+}
+.classes-article li a:hover {color: white;}
+
+
+/*rozvrh*/
+.timetable-section {background-image: url("obrazky/floor-tile.png");}
+.timetable-article table {
+	font-size: 1vw;
+	text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    background-color: #E8E8E8;
+}
+.timetable-article thead {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    background-color: dimgray;
+    color: white;
+}
+tr, td, th {
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+.day, .time {
+	border-right: 1.5px solid black;
+    border-collapse: collapse;
+	background-color: dimgray;
+    color: white;
+}
+.prednaska {
+    color: white;
+    background-color: #384F7E;
+}
+.cvicenie {background-color: #c5d8e0;}
+.telesna {background-color: darkgray;}
+
+/*legenda k rozvrhu*/
+.legend-article {
+    overflow: hidden;
+    padding-bottom: 15px;
+    background-color: white;	
+}
+.legend-article h2 {padding: 0;}
+.legend-article ul {
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+}
+.legend-article ul li {
+	font-size: 80%;
+	text-align: center;
+    display: block;
+    float: left;
+    width: 100px;
+}
+.legend-article ul li span {
+    display: block;
+    float: left;
+    height: 25px;
+    width: 100px;
+}
+
+/*zivotopis*/
+.cv-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    background-image: url("obrazky/floor-tile.png");
+}
+.cv-section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*kontaktne udaje*/
+.contacts-article{
+    background-image: url("obrazky/noisy-texture2.png");
+    flex: 25%;
+}
+.contacts-article h2 {
+	width:100%;
+	text-align:center;
+    color: #384F7E;
+}
+/*obrazok s odkazom*/
+.overlay-image {
+    position: relative;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.overlay-image img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	position: absolute;
+    height: 100%;
+    width: 100%;
+	border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #384F7E;   
+}
+.overlay a {
+    padding: 35%;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size:1.2em;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+.overlay-image:hover .overlay {opacity: 1;}
+
+/*adresa - kontaktne udaje*/
+address {
+    font-family: 'Amatic SC';
+    font-style: normal;
+	font-weight: bold;
+	font-size:1.5em;
+    color: black;
+    margin-top: 20%;
+    padding-right: 20px;
+    margin-right: 0px;
+    letter-spacing: 1px;
+}
+address ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+address ul li {
+    padding: 0 0 10px 5px;
+}
+/*ikony ku kontaktom*/
+#name {
+    list-style-image: url("obrazky/name-icon.png");
+}
+#email {
+    list-style-image: url("obrazky/email-icon.png");
+}
+#phone {
+    list-style-image: url("obrazky/phone-icon.png");
+}
+
+
+

@@ -1,0 +1,147 @@
+/*vseobecne*/
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(69,146,252,1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri Light',arial, helvetica, verdana, sans, sans-serif;
+}
+span {
+    color: red;
+}
+header {
+    background-color: #f2f2f2;
+    color:gray;
+    padding-top: 10px;
+}
+footer {
+    background-color: #f2f2f2;
+    color:gray;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-align: center;
+    width:100%;
+    bottom: 0;
+}
+label{
+    font-weight:bold;
+    display: block;
+}
+input,textarea {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select{
+    width:50%;
+    padding:5px;
+}
+
+/*nadpisy*/
+h1 {
+    margin: 0px auto;
+    font-size: 3em;
+    padding-bottom:10px;
+    width: 100%;
+    text-align: center;
+    font-weight:bold;
+}
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    width:100%;
+    background-color:gray;
+    color:white;
+    margin:0;
+    padding:20px 0px;
+    border-radius: 8px;
+}
+
+/*nadpis - pridany kvoli warningu "Section lacks heading", na stranke nie je viditelny*/
+.heading-to-hide{
+    display:none;
+}
+
+/*formular*/
+.form-section {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:600px;
+    margin:60px auto;
+}
+.two-col-article{
+    margin-top:20px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.two-col-article:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col1{
+    flex: 50%;
+    margin-right:10px;
+}
+.col2{
+    flex: 50%;
+    margin-left:10px;
+}
+.form-item{
+    display:block;
+    margin:10px auto;
+}
+
+/*textarea, input*/
+textarea,input[type=text],input[type=number]{
+    width: 100%;
+    padding:12px;
+}
+input[type=date]{
+    width: 100%;
+    padding:10px;
+}
+input[type=submit] {
+    background: rgb(69,146,252);
+    background: linear-gradient(90deg, rgba(69,146,252,1) 0%, rgba(131,58,180,1) 100%);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius:20px;
+    width: 100%;
+}
+input[type=submit]:hover{
+    opacity:0.7;
+    cursor: pointer;
+}
+
+/*checkboxy, radio*/
+.gender{
+    padding:11px;
+}
+#prog-lang-to-show{
+    display:none;
+}
+#other-source-text,#other-lang-text{
+    padding:3px;
+    width:50%;
+    visibility:hidden;
+}
+#other-source-radio:checked + #other-source-text{
+    visibility:visible;
+}
+#other-lang-checkbox:checked + #other-lang-text{
+    visibility:visible;
+}
+
+/*submit tlacidlo*/
+.submit-item{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}

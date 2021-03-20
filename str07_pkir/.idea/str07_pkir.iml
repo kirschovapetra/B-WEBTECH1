@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="leaflet" level="application" />
+    <orderEntry type="library" name="leaflet-routing-machine" level="application" />
+    <orderEntry type="library" name="1f17c19343d456ce5b6884f34d01e441" level="application" />
+    <orderEntry type="library" name="Control.Geocoder" level="application" />
+    <orderEntry type="library" name="esri-leaflet" level="application" />
+    <orderEntry type="library" name="esri-leaflet-geocoder" level="application" />
+    <orderEntry type="library" name="mapbox-gl" level="application" />
+  </component>
+</module>

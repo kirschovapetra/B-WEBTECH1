@@ -1,0 +1,139 @@
+/*vseobecne*/
+* {box-sizing: border-box;}
+body {
+    background-image:url("bg.png");
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri Light',verdana,arial, helvetica, sans, sans-serif;
+}
+header {
+    background-color: #4E7682;
+    color:white;
+    padding-top: 10px;
+}
+footer {
+    background-color: #4E7682;
+    color:white;
+    font-weight: bold;
+    font-size:0.8em;
+    padding: 5px 0px;
+    text-align: center;
+    width:100%;
+    bottom: 0;
+    position:fixed;
+}
+p {padding:20px;}
+
+/*nadpisy*/
+h1 {
+    margin: 0px auto;
+    font-size: 3em;
+    padding-bottom:10px;
+    width: 100%;
+    text-align: center;
+    font-weight:bold;
+}
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    width:100%;
+    color:gray;
+    margin:0;
+    padding:20px 10px 10px 0px;
+    font-weight:bold;
+}
+/*nadpis - pridany kvoli warningu "Section lacks heading", na stranke nie je viditelny*/
+.heading-to-hide{display:none;}
+
+/*section a galeria (male obrazky)*/
+#main-section{
+	width:75%;
+	height:100%;
+	margin:auto;
+	background-color:white;
+}
+#gallery-article{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#gallery-article img{
+    margin:10px;
+    cursor: pointer;
+    width:250px;
+    height:250px;
+    object-fit:cover;
+}
+
+/*nahlad fotky*/
+.fullSizeView {
+    background-color:rgba(0,0,0,0.4);
+	display: none;
+    position: fixed;
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+/*struktura nahladu fotky*/
+#fullSzPhoto-wrap, #controls-wrap {
+    background-color: white;
+    margin: auto;
+    border: 1px solid lightgrey;
+    width: 75%;
+}
+#fullSzPhoto-wrap{padding: 10px;}
+#controls-wrap{
+	padding: 0px;
+    position:relative;
+}
+
+/*ovladacie tlacidla*/
+#controls{
+	width:50%;
+	margin:auto;
+	font-size:1.2vw;
+	display:flex;
+	justify-content:center;
+	padding:0px;
+}
+.controlButton{
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    font-size:1.3em;
+}
+#closeButton {
+    position:absolute;
+    right:2px;
+    top:-1.5px;
+}
+.controlButton:hover,.controlButton:focus{
+    opacity:0.5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*obrazok v plnej velkosti*/
+.fullSzPhoto-div{
+    display:none;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.fullSzImg{
+    width:100%;
+    height:100%;
+}
+/*obrazok a popis*/
+.imgCol{width:70%;}
+.descrCol{width:30%;}
+
+/*responzivne stlpce*/
+@media screen and (max-width: 900px) {
+    .fullSzPhoto-div {flex-direction: column;}
+    .column{width:100%;}
+}

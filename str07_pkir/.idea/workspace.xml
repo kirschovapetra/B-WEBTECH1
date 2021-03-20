@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="956b1116-13b2-464d-bba6-b644e38ae428" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UYQfhtF4tO5vvap8Sagwms1m31" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pepa\Disk Google (kirschovapetra@gmail.com)\Škola\VŠ\poznamky\bc3 zim\webove_technologie_1\Zadania\str07_pkir\libs" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="956b1116-13b2-464d-bba6-b644e38ae428" name="Default Changelist" comment="" />
+      <created>1575531153778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575531153778</updated>
+      <workItem from="1575531154935" duration="2031000" />
+      <workItem from="1575919729590" duration="82000" />
+      <workItem from="1575919954600" duration="19938000" />
+      <workItem from="1576047770209" duration="2462000" />
+      <workItem from="1576059817013" duration="23745000" />
+      <workItem from="1576102409976" duration="1525000" />
+      <workItem from="1576134050629" duration="1265000" />
+      <workItem from="1576141366739" duration="229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1576059889632">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576059889632" />
+    <state x="680" y="167" width="672" height="677" key="run.anything.popup" timestamp="1576086736069">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="680" y="167" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576086736069" />
+  </component>
+</project>

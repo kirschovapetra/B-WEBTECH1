@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafy</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="d3_script.js" type="text/javascript"></script>
+</head>
+<body onload="getCoords()">
+<header>
+    <h1>GRAFY</h1>
+    <span id="menu">
+        <button onclick="window.location.href = 'index.html';">Plotly</button>
+    <button onclick="window.location.href = 'd3-index.html';">D3</button>
+    </span>
+</header>
+
+<section id="main-section">
+    <!--nadpis - pridany kvoli warningu "Section lacks heading", na stranke nie je viditelny-->
+    <h2 class="heading-to-hide">Section heading</h2>
+
+    <article id="coords">
+        <!--nadpis - pridany kvoli warningu "Article lacks heading", na stranke nie je viditelny-->
+        <h2 class="heading-to-hide">Article heading</h2>
+    </article>
+
+    <article id="graph">
+        <!--nadpis - pridany kvoli warningu "Article lacks heading", na stranke nie je viditelny-->
+        <h2 class="heading-to-hide">Article heading</h2>
+    </article>
+
+    <div id="legend">
+        <div id="sinLegend"></div> <div>Sin</div>
+        <div id="cosLegend"></div> <div>Cos</div>
+    </div>
+
+    <article class="buttons">
+        <!--nadpis - pridany kvoli warningu "Article lacks heading", na stranke nie je viditelny-->
+        <h2 class="heading-to-hide">Article heading</h2>
+        <input type="checkbox" name="sin" value="sin" id="sin" onclick="plotGraph()" checked> Sin
+        <input type="checkbox" name="cos" value="cos" id="cos" onclick="plotGraph()" checked> Cos
+        <input type="submit" name="stop" value="Stop" id="stop-button" onclick="stop()">
+    </article>
+
+</section>
+
+
+<footer>
+    Copyright &copy; 2019 Petra Kirschová<br>
+    Fakulta elektrotechniky a informatiky Slovenskej technickej univerzity v Bratislave
+</footer>
+
+</body>
+</html>

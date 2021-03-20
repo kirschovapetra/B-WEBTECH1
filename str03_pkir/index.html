@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prihláška</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>PRIHLÁŠKA</h1>
+        </header>
+        <section class="form-section">
+
+            <!--nadpis - pridany kvoli warningu "Section lacks heading", na stranke nie je viditelny-->
+            <h2 class="heading-to-hide">Section heading</h2>
+
+            <form action="mailto:feistu01@gmail.com" method="post" onsubmit="return validateForm();">
+
+                <h2>Prihláška na kurz "JavaScript pre začiatočníkov"</h2>
+
+				<article class="two-col-article">
+
+                    <!--nadpis - pridany kvoli warningu "Article lacks heading", na stranke nie je viditelny-->
+                    <h2 class="heading-to-hide">Article heading</h2>
+
+                    <article class="col1">
+
+                        <!--nadpis - pridany kvoli warningu "Article lacks heading", na stranke nie je viditelny-->
+                        <h2 class="heading-to-hide">Article heading</h2>
+
+						<div class="form-item">
+							<label for="name"><span>*</span>Meno<br></label>
+							<input type="text" id="name" name="name" placeholder="Zadajte meno a priezvisko" required>
+						</div>
+					   <div class="form-item">
+						   <label for="birthdate"><span>*</span>Dátum narodenia<br></label>
+						   <input type="date" id="birthdate" name="birthdate" onchange="checkAge();" required>
+					   </div>
+					   <div class="form-item">
+						   <label for="phone">Telefónne číslo<br></label>
+						   <input type="text" id="phone" name="phone" placeholder="Zadajte telefónne číslo +421..."
+                                  pattern="(^[+]([0-9]{12})$)|(^[0-9]{10}$)" onchange="checkPhone();">
+					   </div>
+						<div class="form-item">
+							<label for="street"><span>*</span>Ulica<br></label>
+							<input type="text" id="street" name="street" placeholder="Zadajte ulicu a číslo domu" required>
+						</div>
+						<div class="form-item">
+							<label for="city"><span>*</span>Mesto<br></label>
+							<input type="text" id="city" name="city" placeholder="Zadajte mesto" required>
+						</div>
+					</article>
+
+					<article class="col2">
+
+                        <!--nadpis - pridany kvoli warningu "Article lacks heading", na stranke nie je viditelny-->
+                        <h2 class="heading-to-hide">Article heading</h2>
+
+						<div class="form-item">
+							<label>Vyberte pohlavie<br></label>
+							<div class="gender">
+								<input type="radio" name="gender" value="muz"> Muž
+								<input type="radio" name="gender" value="zena"> Žena
+								<input type="radio" name="gender" value="ine"> Iné
+							</div>
+						</div>
+						<div class="form-item">
+							<label for="age"><span>*</span>Vek<br></label>
+							<input type="number" id="age" name="age" placeholder="Zadajte vek"
+                                   onchange="checkAgeWithAlert();" required>
+						</div>
+						<div class="form-item">
+							<label for="email"><span>*</span>E-mail<br></label>
+							<input type="text" id="email" name="email" placeholder="xxx@yyy.com"
+							pattern="^(\S{3,})[@]([a-zA-Z]+[.])+([a-zA-Z]{2,4})$" onchange="checkMail();" required>
+						</div>
+						<div class="form-item">
+							<label for="psc"><span>*</span>PSČ<br></label>
+							<input type="text" id="psc" name="psc" placeholder="Zadajte PSČ"
+                            pattern="(^[0-9]{5}$)|(^[0-9]{3} [0-9]{2}$)" onchange="checkPSC();" required>
+						</div>
+						<div class="form-item">
+							<label for="state"><span>*</span>Štát<br></label>
+							<input type="text" id="state" name="state" placeholder="Zadajte štát" required>
+						</div>
+					</article>
+
+				</article>
+
+                <article class="full-width-article">
+
+                    <!--nadpis - pridany kvoli warningu "Article lacks heading", na stranke nie je viditelny-->
+                    <h2 class="heading-to-hide">Article heading</h2>
+
+                    <div class="form-item">
+                        <label>Ako ste sa o tomto kurze dozvedeli?<br></label>
+                        <input type="radio" name="source" value="internet"> Z internetu<br>
+                        <input type="radio" name="source" value="skola"> Zo školy<br>
+                        <input type="radio" name="source" value="znamy"> Od známeho<br>
+                        <input type="radio" name="source" value="praca"> Z práce<br>
+                        <input type="radio" id="other-source-radio" name="source" value="ine"> Z iného zdroja
+                        <input type="text" id="other-source-text" name="source" placeholder="Uveďte zdroj">
+                    </div>
+                    <div class="form-item">
+                        <label for="list1">Ste:</label>
+                        <select id="list1" onchange="changeList1();">
+                            <option value="student">Študent</option>
+                            <option value="pracujuci">Pracujúci</option>
+                            <option value="nezamestnany">Nezamestnaný</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="list2" id = "list2-label">Vyberte typ školy:</label>
+                        <select id="list2" onchange="changeList2();">
+                            <option value="stredna-skola">Stredná škola</option>
+                            <option value="vysoka-skola">Vysoká škola</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="list3" id = "list3-label">Vyberte typ strednej školy:</label>
+                        <select id="list3">
+                            <option value="gymnazium">Gymnázium</option>
+                            <option value="odborna-skola">Odborná škola</option>
+                            <option value="konzervatorium">Konzervatórium</option>
+                            <option value="ine">Iné</option>
+                        </select>
+
+                    </div>
+                    <div class="form-item">
+                        <label>Máte skúsenosti s nejakými programovacími jazykmi?<br></label>
+                        <input type="radio" name="prog-experience" value="nie" id="no" checked onclick="showProgLang();"> Nie<br>
+                        <input type="radio" name="prog-experience" value="ano" id="yes" onclick="showProgLang();"> Áno<br>
+                    </div>
+                    <div class="form-item" id="prog-lang-to-show">
+                        <label>S akými programovacími jazykmi máte skúsenosť?<br></label>
+                        <input type="checkbox" name="prog-lang" value="html"> HTML<br>
+                        <input type="checkbox" name="prog-lang" value="css"> CSS<br>
+                        <input type="checkbox" name="prog-lang" value="java"> Java<br>
+                        <input type="checkbox" name="prog-lang" value="javascript"> JavaScript<br>
+                        <input type="checkbox" name="prog-lang" value="c"> C<br>
+                        <input type="checkbox" name="prog-lang" value="c++"> C++<br>
+                        <input type="checkbox" name="prog-lang" value="python"> Python<br>
+                        <input type="checkbox" name="prog-lang" value="php"> PHP<br>
+						<input type="checkbox" id="other-lang-checkbox" name="lang" value="ine"> Iný
+                        <input type="text" id="other-lang-text" name="lang" placeholder="Uveďte aký">
+
+                    </div>
+                    <div class="form-item">
+                        <label for="note">Poznámka<br></label>
+                        <textarea id="note" name="note" placeholder="Sem napíšte poznámku..."></textarea>
+                    </div>
+					
+					<!--Skryte pole-->
+					<input type="hidden" value="Petra Kirschová" name="name">
+					
+                    <div class="submit-item">
+                        <input type="submit" name ="submit" value="Potvrdiť">
+                    </div>
+                </article>
+
+            </form>
+
+        </section>
+
+        <footer>
+            Copyright &copy; 2019 Petra Kirschová<br>
+            Fakulta elektrotechniky a informatiky Slovenskej technickej univerzity v Bratislave
+        </footer>
+
+    </body>
+</html>

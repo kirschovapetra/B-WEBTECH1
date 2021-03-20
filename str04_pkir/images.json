@@ -1,0 +1,35 @@
+{
+	"photos":
+	[
+		{
+			"src": "01.jpg",
+			"title": "Bratislavský hrad",
+			"description": "Bratislavský hrad je súbor stavieb v historickom areáli, ktorý zaberá vrchol návršia na juhozápadnom ostrohu malokarpatského chrbta na ľavom brehu Dunaja v Bratislave. Hradu dominuje monumentálna stavba bývalého kráľovského paláca tvoriaca neodmysliteľnú panorámu hlavného mesta Slovenska. Svojím zástojom v dejinách Veľkej Moravy, Uhorska, Česko-Slovenska a moderného Slovenska predstavuje Bratislavský hrad významný pamätník spoločensko-historického vývoja v tejto oblasti."
+		},
+		{
+			"src": "02.jpg",
+			"title": "Bojnický zámok",
+			"description": "Bojnický zámok je romantický zámok s čiastočne ponechaným pôvodne gotickým a renesančným základom hradu. Nachádza sa v Trenčianskom kraji a leží na západnom okraji mesta Bojnice. Zámok je viditeľný z väčšej časti horného Ponitria. Je postavený na travertínovej skale a tvorí ho vnútorný a vonkajší hrad s tromi nádvoriami. V roku 1970 bol vyhlásený za Národnú kultúrnu pamiatku."
+		},
+		{
+			"src": "03.jpg",
+			"title": "Oravský hrad",
+			"description": "Jednou z najväčších turistických atrakcií severného Slovenska je Oravský hrad, vybudovaný na skale nad riekou Orava v Oravskom Podzámku ako „orlie hniezdo“. Hrad začali budovať na mieste starého dreveného hrádku po tatárskom vpáde v roku 1241. Z pôvodne malej pevnosti z 13.storočia vznikol v priebehu nasledujúcich storočí rozsiahly hradný areál, ktorý má dnes 154 miestností. V minulosti bol župným hradom a sídlom Oravského hradného panstva. Patrila mu takmer celá Orava. Budovy a interiér hradu nesú črty románskeho slohu, gotiky, renesancie, baroka i moderných slohov. "
+		},
+		{
+			"src": "04.jpg",
+			"title": "Červený Kameň",
+			"description": "Hrad Červený Kameň je renesančno-barokové sídlo, ktorého počiatky siahajú až do 16. storočia. V súčasnosti na hrade Červený Kameň sídli špecializovaná pobočka Slovenské ho národného múzea so zameraním na kultúru bývania šľachty a meštiactva na Slovensku.Počiatky hradu Červený Kameň siahajú do prvej polovice 13. storočia. Jeho dejiny sa začali písať, keď česká kráľovná-vdova Konštancia Uhorská nechala pred rokom 1240 na svojich majetkoch postaviť hrad, ktorý sa stal známym pod menom Červený Kameň (nem. Rothenstein, maď. Vöröskő) alebo tiež Bobrí hrad (nem. Bibersburg)."
+		},
+		{
+			"src": "05.jpg",
+			"title": "Spišský hrad",
+			"description": "Spišský hrad je zrúcanina hradu, ktorá zaberá vrchol travertínovej kopy Spišský hradný vrch. Tvorí dominantu širokého okolia na hlavnom cestnom ťahu spájajúcom východoslovenské regióny Spiš a Šariš. Je nielen dôkaz vývoja architektúry od 12. do 18. storočia u nás, ale svojou rozlohou, ktorá prevyšuje 4 hektáre (presne 41 426 m²) je jeden z najväčších hradných komplexov na Slovensku. Napriek tomu, že sa vypína nad mestom Spišské Podhradie, katastrálne patrí územiu obce Žehra (jej miestnej časti Hodkovce) v okrese Spišská Nová Ves v Košickom kraji."
+		},
+		{
+			"src": "06.jpg",
+			"title": "Trenčiansky hrad",
+			"description": "Dominanta Trenčína i celého Považia stráži pradávne obchodné trasy spájajúce stredomorskú oblasť s Pobaltím a severnou Európou. Na mieste dnešného hradu stálo v období Veľkej Moravy hradisko ako správne centrum priľahlého regiónu. Dnešný hrad vznikol v 11. storočí ako pohraničná pevnosť, strážiaca dôležité vážske brody a dôležité karpatské priesmyky, cez ktoré prechádzali obchodné cesty, spájajúce oblasť severného Uhorska a stredoslovenských banských miest s Čechami, Moravou, Sliezskom a Poľskom. "
+		}
+	]
+}

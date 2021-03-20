@@ -1,0 +1,69 @@
+/*vseobecne*/
+* {box-sizing: border-box;}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: calibri,verdana,arial, helvetica, sans, sans-serif;
+}
+header {
+    background-color: #890045;
+    color:white;
+    padding: 10px;
+}
+footer {
+    background-color: #890045;
+    color:white;
+    font-weight: bold;
+    font-size:0.9em;
+    padding: 5px 0px;
+    text-align: center;
+    width:100%;
+    bottom: 0;
+
+}
+/*nadpisy*/
+h1 {
+    margin: 0px auto;
+    font-size: 3em;
+    padding-bottom:10px;
+    width: 100%;
+    text-align: center;
+    font-weight:bold;
+}
+
+/*nadpis - pridany kvoli warningu "Section lacks heading", na stranke nie je viditelny*/
+.heading-to-hide{display:none;}
+
+article{
+    margin:10px auto;
+    display: block;
+    width:80%;
+}
+
+#main-section{
+    width:100%;
+    height:600px;
+    padding:10px;
+    margin:auto;
+    background-color:white;
+}
+
+
+#mapid { 
+    height:500px;
+    width:80%;
+    margin:auto;
+}
+#mapid:hover{
+    cursor:pointer;
+}
+
+#input-div{
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+input[type="text"]{
+    width:65%;
+}
