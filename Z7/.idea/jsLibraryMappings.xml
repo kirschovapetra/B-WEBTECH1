@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{1f17c19343d456ce5b6884f34d01e441, Control.Geocoder, esri-leaflet, esri-leaflet-geocoder, leaflet, leaflet-routing-machine, mapbox-gl}" />
-  </component>
-</project>
